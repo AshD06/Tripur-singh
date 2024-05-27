@@ -1968,6 +1968,13 @@ ol {
   {
     left: 40%;
   }
+
+  .hero__item
+  {
+    background-position: left;
+    background: url('../img/hero/hero-2.jpg');
+  }
+
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
