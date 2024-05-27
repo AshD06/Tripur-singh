@@ -1971,7 +1971,9 @@ ol {
 
   .hero__item
   {
-    background-position: left;
+    background-position: center !important;
+    background-repeat: no-repeat;
+    background-size:cover  !important;
     background: url('../img/hero/hero-2.jpg');
   }
 
@@ -2155,6 +2157,7 @@ ol {
   .hero__text h2 {
     font-size: 30px;
     line-height: 40px;
+    padding-top: 70px;
   }
 
   .grid-sizer {
