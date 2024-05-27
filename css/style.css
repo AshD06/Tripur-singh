@@ -492,7 +492,7 @@ ol {
 }
 .hero__text h2 {
   color: #ffffff;
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 700;
   line-height: 70px;
   text-transform: uppercase;
@@ -817,7 +817,8 @@ ol {
   Call To Active
 -----------------------*/
 .callto {
-  padding-top: 130px;
+  padding-top: 130px; 
+  background-position: bottom;
 }
 .callto.sp__callto {
   padding-top: 0;
@@ -868,7 +869,9 @@ ol {
 .footer__top__logo a {
   display: inline-block;
 }
-
+.footer__top__logo img {
+  width: 100%;max-width: 200px;
+}
 .footer__top__social {
   text-align: right;
 }
@@ -1957,6 +1960,14 @@ ol {
     margin-bottom: 50px;
   }
 
+  .section-title h2:after {
+    left: 40%;
+  }
+  
+  .services__item__icon
+  {
+    left: 40%;
+  }
   .counter__item {
     -webkit-transform: rotate(0);
     -ms-transform: rotate(0);
