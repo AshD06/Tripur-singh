@@ -1,1 +1,0 @@
-# Tripur-singh VideoGraphy Portofolio Site
